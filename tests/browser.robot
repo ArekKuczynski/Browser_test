@@ -55,19 +55,6 @@ Buy Product
     Check Tax And Finish Buying
 
 *** Keywords ***
-Open Webpage
-    Browser.Open Browser    ${URL}
-
-Login Input
-    Browser.Fill Text    ${login_input}    standard_user
-    Log    xpath
-
-Password Input
-    Browser.Fill Text    ${password_input}    secret_sauce
-
-Click Login
-    Browser.Click    ${login_button}
-
 Click Element
     Browser.Click    ${item_element}
 

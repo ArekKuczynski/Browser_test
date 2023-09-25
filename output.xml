@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 6.1.1 (Python 3.9.13 on win32)" generated="20230925 01:26:39.741" rpa="false" schemaversion="4">
+<robot generator="Robot 6.1.1 (Python 3.9.13 on win32)" generated="20230925 10:35:19.483" rpa="false" schemaversion="4">
 <suite id="s1" name="Tests" source="X:\Programy\Robot_framework\browser_robot\tests">
 <suite id="s1-s1" name="Browser" source="X:\Programy\Robot_framework\browser_robot\tests\browser.robot">
 <test id="s1-s1-t1" name="Login Test" line="27">
@@ -9,10 +9,10 @@
 <tag>BrowserControl</tag>
 <tag>Setter</tag>
 <doc>Opens a new browser instance. Use this keyword for quick experiments or debugging sessions.</doc>
-<msg timestamp="20230925 01:26:41.573" level="WARN">Open Browser is for quick experimentation and debugging only. Use New Page for production.</msg>
-<msg timestamp="20230925 01:26:41.573" level="INFO">{"browser": "chromium", "headless": false, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "X:\\Programy\\Robot_framework\\browser_robot\\browser\\traces\\c2b396f1-eaf1-4217-8b3a-afdb63634d3a"}</msg>
-<msg timestamp="20230925 01:26:41.993" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"X:\\Programy\\Robot_framework\\browser_robot\\browser\\traces\\c2b396f1-eaf1-4217-8b3a-afdb63634d3a"}</msg>
-<msg timestamp="20230925 01:26:41.993" level="INFO">{
+<msg timestamp="20230925 10:35:21.317" level="WARN">Open Browser is for quick experimentation and debugging only. Use New Page for production.</msg>
+<msg timestamp="20230925 10:35:21.317" level="INFO">{"browser": "chromium", "headless": false, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "X:\\Programy\\Robot_framework\\browser_robot\\browser\\traces\\7240cdb5-9d81-4209-8c71-0561a0361f25"}</msg>
+<msg timestamp="20230925 10:35:21.718" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"X:\\Programy\\Robot_framework\\browser_robot\\browser\\traces\\7240cdb5-9d81-4209-8c71-0561a0361f25"}</msg>
+<msg timestamp="20230925 10:35:21.719" level="INFO">{
   "acceptDownloads": true,
   "bypassCSP": true,
   "forcedColors": "none",
@@ -23,14 +23,14 @@
   "reducedMotion": "no-preference",
   "serviceWorkers": "allow",
   "viewport": {
-    "height": 720,
-    "width": 1280
+    "width": 1280,
+    "height": 720
   }
 }</msg>
-<msg timestamp="20230925 01:26:42.013" level="INFO">Successfully created context. </msg>
-<msg timestamp="20230925 01:26:42.013" level="INFO">{'acceptDownloads': True, 'bypassCSP': True, 'forcedColors': 'none', 'hideRfBrowser': '', 'ignoreHTTPSErrors': False, 'javaScriptEnabled': True, 'offline': False, 'reducedMotion': 'no-preference', 'serviceWorkers': 'allow', 'viewport': {'height': 720, 'width': 1280}}</msg>
-<msg timestamp="20230925 01:26:42.886" level="INFO">Successfully initialized new page object and opened url: https://www.saucedemo.com/</msg>
-<status status="PASS" starttime="20230925 01:26:41.572" endtime="20230925 01:26:42.888"/>
+<msg timestamp="20230925 10:35:21.734" level="INFO">Successfully created context. </msg>
+<msg timestamp="20230925 10:35:21.734" level="INFO">{'acceptDownloads': True, 'bypassCSP': True, 'forcedColors': 'none', 'hideRfBrowser': '', 'ignoreHTTPSErrors': False, 'javaScriptEnabled': True, 'offline': False, 'reducedMotion': 'no-preference', 'serviceWorkers': 'allow', 'viewport': {'width': 1280, 'height': 720}}</msg>
+<msg timestamp="20230925 10:35:22.545" level="INFO">Successfully initialized new page object and opened url: https://www.saucedemo.com/</msg>
+<status status="PASS" starttime="20230925 10:35:21.316" endtime="20230925 10:35:22.547"/>
 </kw>
 <kw name="Fill Text" library="Browser">
 <arg>${login_input}</arg>
@@ -38,14 +38,14 @@
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
-<msg timestamp="20230925 01:26:42.889" level="INFO">Fills the text 'standard_user' in the given field.</msg>
-<status status="PASS" starttime="20230925 01:26:42.888" endtime="20230925 01:26:42.935"/>
+<msg timestamp="20230925 10:35:22.548" level="INFO">Fills the text 'standard_user' in the given field.</msg>
+<status status="PASS" starttime="20230925 10:35:22.547" endtime="20230925 10:35:22.594"/>
 </kw>
 <kw name="Log" library="BuiltIn">
 <arg>xpath</arg>
 <doc>Logs the given message with the given level.</doc>
-<msg timestamp="20230925 01:26:42.936" level="INFO">xpath</msg>
-<status status="PASS" starttime="20230925 01:26:42.936" endtime="20230925 01:26:42.936"/>
+<msg timestamp="20230925 10:35:22.595" level="INFO">xpath</msg>
+<status status="PASS" starttime="20230925 10:35:22.595" endtime="20230925 10:35:22.595"/>
 </kw>
 <kw name="Fill Text" library="Browser">
 <arg>${password_input}</arg>
@@ -53,22 +53,22 @@
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
-<msg timestamp="20230925 01:26:42.937" level="INFO">Fills the text 'secret_sauce' in the given field.</msg>
-<status status="PASS" starttime="20230925 01:26:42.936" endtime="20230925 01:26:42.957"/>
+<msg timestamp="20230925 10:35:22.596" level="INFO">Fills the text 'secret_sauce' in the given field.</msg>
+<status status="PASS" starttime="20230925 10:35:22.595" endtime="20230925 10:35:22.616"/>
 </kw>
 <kw name="Click" library="Browser">
 <arg>${login_button}</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" starttime="20230925 01:26:42.957" endtime="20230925 01:26:43.040"/>
+<status status="PASS" starttime="20230925 10:35:22.617" endtime="20230925 10:35:22.698"/>
 </kw>
-<status status="PASS" starttime="20230925 01:26:41.571" endtime="20230925 01:26:43.041"/>
+<status status="PASS" starttime="20230925 10:35:21.315" endtime="20230925 10:35:22.698"/>
 </kw>
 <doc>Test testujacy logowanie</doc>
 <tag>login_sucedemo.com</tag>
 <timeout value="3 seconds"/>
-<status status="PASS" starttime="20230925 01:26:41.569" endtime="20230925 01:26:43.041"/>
+<status status="PASS" starttime="20230925 10:35:21.313" endtime="20230925 10:35:22.698"/>
 </test>
 <test id="s1-s1-t2" name="Add Product" line="34">
 <kw name="Open Webpage And Login_standard_user" library="open_page">
@@ -77,11 +77,11 @@
 <tag>BrowserControl</tag>
 <tag>Setter</tag>
 <doc>Opens a new browser instance. Use this keyword for quick experiments or debugging sessions.</doc>
-<msg timestamp="20230925 01:26:43.135" level="WARN">Open Browser is for quick experimentation and debugging only. Use New Page for production.</msg>
-<msg timestamp="20230925 01:26:43.135" level="INFO">Switching browser to browser=2a144186-6b0f-4702-a00a-9643223a7abd</msg>
-<msg timestamp="20230925 01:26:43.138" level="INFO">Successfully changed active browser</msg>
-<msg timestamp="20230925 01:26:43.138" level="INFO">Reusing existing browser with id: browser=2a144186-6b0f-4702-a00a-9643223a7abd</msg>
-<msg timestamp="20230925 01:26:43.138" level="INFO">{
+<msg timestamp="20230925 10:35:22.787" level="WARN">Open Browser is for quick experimentation and debugging only. Use New Page for production.</msg>
+<msg timestamp="20230925 10:35:22.787" level="INFO">Switching browser to browser=5a342fda-f128-46a5-92a1-e0dc2b453a4f</msg>
+<msg timestamp="20230925 10:35:22.790" level="INFO">Successfully changed active browser</msg>
+<msg timestamp="20230925 10:35:22.790" level="INFO">Reusing existing browser with id: browser=5a342fda-f128-46a5-92a1-e0dc2b453a4f</msg>
+<msg timestamp="20230925 10:35:22.791" level="INFO">{
   "acceptDownloads": true,
   "bypassCSP": true,
   "forcedColors": "none",
@@ -92,14 +92,14 @@
   "reducedMotion": "no-preference",
   "serviceWorkers": "allow",
   "viewport": {
-    "height": 720,
-    "width": 1280
+    "width": 1280,
+    "height": 720
   }
 }</msg>
-<msg timestamp="20230925 01:26:43.148" level="INFO">Successfully created context. </msg>
-<msg timestamp="20230925 01:26:43.148" level="INFO">{'acceptDownloads': True, 'bypassCSP': True, 'forcedColors': 'none', 'hideRfBrowser': '', 'ignoreHTTPSErrors': False, 'javaScriptEnabled': True, 'offline': False, 'reducedMotion': 'no-preference', 'serviceWorkers': 'allow', 'viewport': {'height': 720, 'width': 1280}}</msg>
-<msg timestamp="20230925 01:26:43.925" level="INFO">Successfully initialized new page object and opened url: https://www.saucedemo.com/</msg>
-<status status="PASS" starttime="20230925 01:26:43.126" endtime="20230925 01:26:43.926"/>
+<msg timestamp="20230925 10:35:22.800" level="INFO">Successfully created context. </msg>
+<msg timestamp="20230925 10:35:22.800" level="INFO">{'acceptDownloads': True, 'bypassCSP': True, 'forcedColors': 'none', 'hideRfBrowser': '', 'ignoreHTTPSErrors': False, 'javaScriptEnabled': True, 'offline': False, 'reducedMotion': 'no-preference', 'serviceWorkers': 'allow', 'viewport': {'width': 1280, 'height': 720}}</msg>
+<msg timestamp="20230925 10:35:23.631" level="INFO">Successfully initialized new page object and opened url: https://www.saucedemo.com/</msg>
+<status status="PASS" starttime="20230925 10:35:22.782" endtime="20230925 10:35:23.635"/>
 </kw>
 <kw name="Fill Text" library="Browser">
 <arg>${login_input}</arg>
@@ -107,14 +107,14 @@
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
-<msg timestamp="20230925 01:26:43.927" level="INFO">Fills the text 'standard_user' in the given field.</msg>
-<status status="PASS" starttime="20230925 01:26:43.927" endtime="20230925 01:26:43.965"/>
+<msg timestamp="20230925 10:35:23.644" level="INFO">Fills the text 'standard_user' in the given field.</msg>
+<status status="PASS" starttime="20230925 10:35:23.635" endtime="20230925 10:35:23.701"/>
 </kw>
 <kw name="Log" library="BuiltIn">
 <arg>xpath</arg>
 <doc>Logs the given message with the given level.</doc>
-<msg timestamp="20230925 01:26:43.986" level="INFO">xpath</msg>
-<status status="PASS" starttime="20230925 01:26:43.966" endtime="20230925 01:26:43.986"/>
+<msg timestamp="20230925 10:35:23.703" level="INFO">xpath</msg>
+<status status="PASS" starttime="20230925 10:35:23.702" endtime="20230925 10:35:23.703"/>
 </kw>
 <kw name="Fill Text" library="Browser">
 <arg>${password_input}</arg>
@@ -122,17 +122,17 @@
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
-<msg timestamp="20230925 01:26:43.988" level="INFO">Fills the text 'secret_sauce' in the given field.</msg>
-<status status="PASS" starttime="20230925 01:26:43.987" endtime="20230925 01:26:44.007"/>
+<msg timestamp="20230925 10:35:23.706" level="INFO">Fills the text 'secret_sauce' in the given field.</msg>
+<status status="PASS" starttime="20230925 10:35:23.704" endtime="20230925 10:35:23.726"/>
 </kw>
 <kw name="Click" library="Browser">
 <arg>${login_button}</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" starttime="20230925 01:26:44.007" endtime="20230925 01:26:44.086"/>
+<status status="PASS" starttime="20230925 10:35:23.727" endtime="20230925 10:35:23.810"/>
 </kw>
-<status status="PASS" starttime="20230925 01:26:43.126" endtime="20230925 01:26:44.086"/>
+<status status="PASS" starttime="20230925 10:35:22.782" endtime="20230925 10:35:23.810"/>
 </kw>
 <kw name="Add First Product To Cart">
 <kw name="Get Text" library="Browser">
@@ -142,17 +142,17 @@
 <tag>Getter</tag>
 <tag>PageContent</tag>
 <doc>Returns text attribute of the element found by ``selector``.</doc>
-<msg timestamp="20230925 01:26:44.116" level="INFO">Text: 'Sauce Labs Backpack'</msg>
-<msg timestamp="20230925 01:26:44.116" level="INFO">${text_1} = Sauce Labs Backpack</msg>
-<status status="PASS" starttime="20230925 01:26:44.087" endtime="20230925 01:26:44.116"/>
+<msg timestamp="20230925 10:35:23.858" level="INFO">Text: 'Sauce Labs Backpack'</msg>
+<msg timestamp="20230925 10:35:23.859" level="INFO">${text_1} = Sauce Labs Backpack</msg>
+<status status="PASS" starttime="20230925 10:35:23.811" endtime="20230925 10:35:23.859"/>
 </kw>
 <if>
 <branch type="IF" condition="$text_1 == $expected_item_element_value">
 <kw name="Log" library="BuiltIn">
 <arg>${text_1}</arg>
 <doc>Logs the given message with the given level.</doc>
-<msg timestamp="20230925 01:26:44.120" level="INFO">Sauce Labs Backpack</msg>
-<status status="PASS" starttime="20230925 01:26:44.120" endtime="20230925 01:26:44.121"/>
+<msg timestamp="20230925 10:35:23.864" level="INFO">Sauce Labs Backpack</msg>
+<status status="PASS" starttime="20230925 10:35:23.863" endtime="20230925 10:35:23.864"/>
 </kw>
 <kw name="Click Element">
 <kw name="Click" library="Browser">
@@ -160,29 +160,29 @@
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" starttime="20230925 01:26:44.121" endtime="20230925 01:26:44.171"/>
+<status status="PASS" starttime="20230925 10:35:23.865" endtime="20230925 10:35:23.940"/>
 </kw>
-<status status="PASS" starttime="20230925 01:26:44.121" endtime="20230925 01:26:44.171"/>
+<status status="PASS" starttime="20230925 10:35:23.864" endtime="20230925 10:35:23.941"/>
 </kw>
 <kw name="Set Variable" library="BuiltIn">
 <var>${item_element}</var>
 <arg>//button[@id="add-to-cart-sauce-labs-backpack"]</arg>
 <doc>Returns the given values which can then be assigned to a variables.</doc>
-<msg timestamp="20230925 01:26:44.172" level="INFO">${item_element} = //button[@id="add-to-cart-sauce-labs-backpack"]</msg>
-<status status="PASS" starttime="20230925 01:26:44.172" endtime="20230925 01:26:44.172"/>
+<msg timestamp="20230925 10:35:23.942" level="INFO">${item_element} = //button[@id="add-to-cart-sauce-labs-backpack"]</msg>
+<status status="PASS" starttime="20230925 10:35:23.941" endtime="20230925 10:35:23.942"/>
 </kw>
 <kw name="Click" library="Browser">
 <arg>${item_element}</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" starttime="20230925 01:26:44.172" endtime="20230925 01:26:44.210"/>
+<status status="PASS" starttime="20230925 10:35:23.943" endtime="20230925 10:35:23.993"/>
 </kw>
-<status status="PASS" starttime="20230925 01:26:44.116" endtime="20230925 01:26:44.210"/>
+<status status="PASS" starttime="20230925 10:35:23.859" endtime="20230925 10:35:23.993"/>
 </branch>
-<status status="PASS" starttime="20230925 01:26:44.116" endtime="20230925 01:26:44.210"/>
+<status status="PASS" starttime="20230925 10:35:23.859" endtime="20230925 10:35:23.994"/>
 </if>
-<status status="PASS" starttime="20230925 01:26:44.086" endtime="20230925 01:26:44.210"/>
+<status status="PASS" starttime="20230925 10:35:23.810" endtime="20230925 10:35:23.994"/>
 </kw>
 <kw name="Click Shopping Cart">
 <kw name="Click" library="Browser">
@@ -190,17 +190,17 @@
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" starttime="20230925 01:26:44.211" endtime="20230925 01:26:44.247"/>
+<status status="PASS" starttime="20230925 10:35:23.995" endtime="20230925 10:35:24.039"/>
 </kw>
-<status status="PASS" starttime="20230925 01:26:44.210" endtime="20230925 01:26:44.247"/>
+<status status="PASS" starttime="20230925 10:35:23.995" endtime="20230925 10:35:24.039"/>
 </kw>
 <kw name="Check Shopping Cart">
 <kw name="Set Variable" library="BuiltIn">
 <var>${item_element}</var>
 <arg>//div[@class="inventory_item_name"]</arg>
 <doc>Returns the given values which can then be assigned to a variables.</doc>
-<msg timestamp="20230925 01:26:44.249" level="INFO">${item_element} = //div[@class="inventory_item_name"]</msg>
-<status status="PASS" starttime="20230925 01:26:44.249" endtime="20230925 01:26:44.250"/>
+<msg timestamp="20230925 10:35:24.041" level="INFO">${item_element} = //div[@class="inventory_item_name"]</msg>
+<status status="PASS" starttime="20230925 10:35:24.041" endtime="20230925 10:35:24.041"/>
 </kw>
 <kw name="Get Text" library="Browser">
 <var>${text_1}</var>
@@ -209,17 +209,17 @@
 <tag>Getter</tag>
 <tag>PageContent</tag>
 <doc>Returns text attribute of the element found by ``selector``.</doc>
-<msg timestamp="20230925 01:26:44.263" level="INFO">Text: 'Sauce Labs Backpack'</msg>
-<msg timestamp="20230925 01:26:44.263" level="INFO">${text_1} = Sauce Labs Backpack</msg>
-<status status="PASS" starttime="20230925 01:26:44.250" endtime="20230925 01:26:44.264"/>
+<msg timestamp="20230925 10:35:24.055" level="INFO">Text: 'Sauce Labs Backpack'</msg>
+<msg timestamp="20230925 10:35:24.055" level="INFO">${text_1} = Sauce Labs Backpack</msg>
+<status status="PASS" starttime="20230925 10:35:24.042" endtime="20230925 10:35:24.055"/>
 </kw>
 <if>
 <branch type="IF" condition="$text_1 == $expected_item_element_value">
 <kw name="Log" library="BuiltIn">
 <arg>${text_1}</arg>
 <doc>Logs the given message with the given level.</doc>
-<msg timestamp="20230925 01:26:44.265" level="INFO">Sauce Labs Backpack</msg>
-<status status="PASS" starttime="20230925 01:26:44.264" endtime="20230925 01:26:44.265"/>
+<msg timestamp="20230925 10:35:24.056" level="INFO">Sauce Labs Backpack</msg>
+<status status="PASS" starttime="20230925 10:35:24.056" endtime="20230925 10:35:24.056"/>
 </kw>
 <kw name="Get Text" library="Browser">
 <var>${price_text}</var>
@@ -228,15 +228,15 @@
 <tag>Getter</tag>
 <tag>PageContent</tag>
 <doc>Returns text attribute of the element found by ``selector``.</doc>
-<msg timestamp="20230925 01:26:44.276" level="INFO">Text: '$29.99'</msg>
-<msg timestamp="20230925 01:26:44.276" level="INFO">${price_text} = $29.99</msg>
-<status status="PASS" starttime="20230925 01:26:44.265" endtime="20230925 01:26:44.276"/>
+<msg timestamp="20230925 10:35:24.067" level="INFO">Text: '$29.99'</msg>
+<msg timestamp="20230925 10:35:24.067" level="INFO">${price_text} = $29.99</msg>
+<status status="PASS" starttime="20230925 10:35:24.057" endtime="20230925 10:35:24.067"/>
 </kw>
 <kw name="Price To Int" library="lib">
 <var>${price_text_int}</var>
 <arg>${price_text}</arg>
-<msg timestamp="20230925 01:26:44.277" level="INFO">${price_text_int} = 29.99</msg>
-<status status="PASS" starttime="20230925 01:26:44.277" endtime="20230925 01:26:44.277"/>
+<msg timestamp="20230925 10:35:24.068" level="INFO">${price_text_int} = 29.99</msg>
+<status status="PASS" starttime="20230925 10:35:24.068" endtime="20230925 10:35:24.068"/>
 </kw>
 <if>
 <branch type="IF" condition="$price_text == $expected_item_element_price">
@@ -245,27 +245,27 @@
 <kw name="Log" library="BuiltIn">
 <arg>${price_text_int}</arg>
 <doc>Logs the given message with the given level.</doc>
-<msg timestamp="20230925 01:26:44.278" level="INFO">29.99</msg>
-<status status="PASS" starttime="20230925 01:26:44.278" endtime="20230925 01:26:44.278"/>
+<msg timestamp="20230925 10:35:24.070" level="INFO">29.99</msg>
+<status status="PASS" starttime="20230925 10:35:24.069" endtime="20230925 10:35:24.070"/>
 </kw>
-<status status="PASS" starttime="20230925 01:26:44.278" endtime="20230925 01:26:44.278"/>
+<status status="PASS" starttime="20230925 10:35:24.069" endtime="20230925 10:35:24.070"/>
 </branch>
-<status status="PASS" starttime="20230925 01:26:44.278" endtime="20230925 01:26:44.279"/>
+<status status="PASS" starttime="20230925 10:35:24.069" endtime="20230925 10:35:24.070"/>
 </if>
-<status status="PASS" starttime="20230925 01:26:44.277" endtime="20230925 01:26:44.279"/>
+<status status="PASS" starttime="20230925 10:35:24.068" endtime="20230925 10:35:24.070"/>
 </branch>
-<status status="PASS" starttime="20230925 01:26:44.277" endtime="20230925 01:26:44.279"/>
+<status status="PASS" starttime="20230925 10:35:24.068" endtime="20230925 10:35:24.070"/>
 </if>
-<status status="PASS" starttime="20230925 01:26:44.264" endtime="20230925 01:26:44.279"/>
+<status status="PASS" starttime="20230925 10:35:24.056" endtime="20230925 10:35:24.070"/>
 </branch>
-<status status="PASS" starttime="20230925 01:26:44.264" endtime="20230925 01:26:44.279"/>
+<status status="PASS" starttime="20230925 10:35:24.055" endtime="20230925 10:35:24.070"/>
 </if>
-<status status="PASS" starttime="20230925 01:26:44.248" endtime="20230925 01:26:44.279"/>
+<status status="PASS" starttime="20230925 10:35:24.040" endtime="20230925 10:35:24.070"/>
 </kw>
 <doc>Test testujacy dodawanie produktu do koszyka</doc>
 <tag>add_sucedemo.com</tag>
 <timeout value="3 seconds"/>
-<status status="PASS" starttime="20230925 01:26:43.122" endtime="20230925 01:26:44.279"/>
+<status status="PASS" starttime="20230925 10:35:22.777" endtime="20230925 10:35:24.071"/>
 </test>
 <test id="s1-s1-t3" name="Buy Product" line="44">
 <kw name="Open Webpage And Login_standard_user" library="open_page">
@@ -274,11 +274,11 @@
 <tag>BrowserControl</tag>
 <tag>Setter</tag>
 <doc>Opens a new browser instance. Use this keyword for quick experiments or debugging sessions.</doc>
-<msg timestamp="20230925 01:26:44.347" level="WARN">Open Browser is for quick experimentation and debugging only. Use New Page for production.</msg>
-<msg timestamp="20230925 01:26:44.347" level="INFO">Switching browser to browser=2a144186-6b0f-4702-a00a-9643223a7abd</msg>
-<msg timestamp="20230925 01:26:44.349" level="INFO">Successfully changed active browser</msg>
-<msg timestamp="20230925 01:26:44.349" level="INFO">Reusing existing browser with id: browser=2a144186-6b0f-4702-a00a-9643223a7abd</msg>
-<msg timestamp="20230925 01:26:44.349" level="INFO">{
+<msg timestamp="20230925 10:35:24.139" level="WARN">Open Browser is for quick experimentation and debugging only. Use New Page for production.</msg>
+<msg timestamp="20230925 10:35:24.139" level="INFO">Switching browser to browser=5a342fda-f128-46a5-92a1-e0dc2b453a4f</msg>
+<msg timestamp="20230925 10:35:24.141" level="INFO">Successfully changed active browser</msg>
+<msg timestamp="20230925 10:35:24.142" level="INFO">Reusing existing browser with id: browser=5a342fda-f128-46a5-92a1-e0dc2b453a4f</msg>
+<msg timestamp="20230925 10:35:24.142" level="INFO">{
   "acceptDownloads": true,
   "bypassCSP": true,
   "forcedColors": "none",
@@ -289,14 +289,14 @@
   "reducedMotion": "no-preference",
   "serviceWorkers": "allow",
   "viewport": {
-    "height": 720,
-    "width": 1280
+    "width": 1280,
+    "height": 720
   }
 }</msg>
-<msg timestamp="20230925 01:26:44.361" level="INFO">Successfully created context. </msg>
-<msg timestamp="20230925 01:26:44.361" level="INFO">{'acceptDownloads': True, 'bypassCSP': True, 'forcedColors': 'none', 'hideRfBrowser': '', 'ignoreHTTPSErrors': False, 'javaScriptEnabled': True, 'offline': False, 'reducedMotion': 'no-preference', 'serviceWorkers': 'allow', 'viewport': {'height': 720, 'width': 1280}}</msg>
-<msg timestamp="20230925 01:26:45.131" level="INFO">Successfully initialized new page object and opened url: https://www.saucedemo.com/</msg>
-<status status="PASS" starttime="20230925 01:26:44.345" endtime="20230925 01:26:45.133"/>
+<msg timestamp="20230925 10:35:24.153" level="INFO">Successfully created context. </msg>
+<msg timestamp="20230925 10:35:24.153" level="INFO">{'acceptDownloads': True, 'bypassCSP': True, 'forcedColors': 'none', 'hideRfBrowser': '', 'ignoreHTTPSErrors': False, 'javaScriptEnabled': True, 'offline': False, 'reducedMotion': 'no-preference', 'serviceWorkers': 'allow', 'viewport': {'width': 1280, 'height': 720}}</msg>
+<msg timestamp="20230925 10:35:25.011" level="INFO">Successfully initialized new page object and opened url: https://www.saucedemo.com/</msg>
+<status status="PASS" starttime="20230925 10:35:24.132" endtime="20230925 10:35:25.012"/>
 </kw>
 <kw name="Fill Text" library="Browser">
 <arg>${login_input}</arg>
@@ -304,14 +304,14 @@
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
-<msg timestamp="20230925 01:26:45.134" level="INFO">Fills the text 'standard_user' in the given field.</msg>
-<status status="PASS" starttime="20230925 01:26:45.133" endtime="20230925 01:26:45.171"/>
+<msg timestamp="20230925 10:35:25.013" level="INFO">Fills the text 'standard_user' in the given field.</msg>
+<status status="PASS" starttime="20230925 10:35:25.012" endtime="20230925 10:35:25.049"/>
 </kw>
 <kw name="Log" library="BuiltIn">
 <arg>xpath</arg>
 <doc>Logs the given message with the given level.</doc>
-<msg timestamp="20230925 01:26:45.172" level="INFO">xpath</msg>
-<status status="PASS" starttime="20230925 01:26:45.171" endtime="20230925 01:26:45.172"/>
+<msg timestamp="20230925 10:35:25.050" level="INFO">xpath</msg>
+<status status="PASS" starttime="20230925 10:35:25.050" endtime="20230925 10:35:25.051"/>
 </kw>
 <kw name="Fill Text" library="Browser">
 <arg>${password_input}</arg>
@@ -319,17 +319,17 @@
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
-<msg timestamp="20230925 01:26:45.172" level="INFO">Fills the text 'secret_sauce' in the given field.</msg>
-<status status="PASS" starttime="20230925 01:26:45.172" endtime="20230925 01:26:45.199"/>
+<msg timestamp="20230925 10:35:25.051" level="INFO">Fills the text 'secret_sauce' in the given field.</msg>
+<status status="PASS" starttime="20230925 10:35:25.051" endtime="20230925 10:35:25.071"/>
 </kw>
 <kw name="Click" library="Browser">
 <arg>${login_button}</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" starttime="20230925 01:26:45.199" endtime="20230925 01:26:45.266"/>
+<status status="PASS" starttime="20230925 10:35:25.071" endtime="20230925 10:35:25.139"/>
 </kw>
-<status status="PASS" starttime="20230925 01:26:44.345" endtime="20230925 01:26:45.266"/>
+<status status="PASS" starttime="20230925 10:35:24.131" endtime="20230925 10:35:25.140"/>
 </kw>
 <kw name="Add First Product To Cart">
 <kw name="Get Text" library="Browser">
@@ -339,17 +339,17 @@
 <tag>Getter</tag>
 <tag>PageContent</tag>
 <doc>Returns text attribute of the element found by ``selector``.</doc>
-<msg timestamp="20230925 01:26:45.301" level="INFO">Text: 'Sauce Labs Backpack'</msg>
-<msg timestamp="20230925 01:26:45.301" level="INFO">${text_1} = Sauce Labs Backpack</msg>
-<status status="PASS" starttime="20230925 01:26:45.267" endtime="20230925 01:26:45.301"/>
+<msg timestamp="20230925 10:35:25.168" level="INFO">Text: 'Sauce Labs Backpack'</msg>
+<msg timestamp="20230925 10:35:25.168" level="INFO">${text_1} = Sauce Labs Backpack</msg>
+<status status="PASS" starttime="20230925 10:35:25.141" endtime="20230925 10:35:25.168"/>
 </kw>
 <if>
 <branch type="IF" condition="$text_1 == $expected_item_element_value">
 <kw name="Log" library="BuiltIn">
 <arg>${text_1}</arg>
 <doc>Logs the given message with the given level.</doc>
-<msg timestamp="20230925 01:26:45.302" level="INFO">Sauce Labs Backpack</msg>
-<status status="PASS" starttime="20230925 01:26:45.302" endtime="20230925 01:26:45.303"/>
+<msg timestamp="20230925 10:35:25.170" level="INFO">Sauce Labs Backpack</msg>
+<status status="PASS" starttime="20230925 10:35:25.169" endtime="20230925 10:35:25.170"/>
 </kw>
 <kw name="Click Element">
 <kw name="Click" library="Browser">
@@ -357,29 +357,29 @@
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" starttime="20230925 01:26:45.303" endtime="20230925 01:26:45.341"/>
+<status status="PASS" starttime="20230925 10:35:25.171" endtime="20230925 10:35:25.206"/>
 </kw>
-<status status="PASS" starttime="20230925 01:26:45.303" endtime="20230925 01:26:45.341"/>
+<status status="PASS" starttime="20230925 10:35:25.171" endtime="20230925 10:35:25.206"/>
 </kw>
 <kw name="Set Variable" library="BuiltIn">
 <var>${item_element}</var>
 <arg>//button[@id="add-to-cart-sauce-labs-backpack"]</arg>
 <doc>Returns the given values which can then be assigned to a variables.</doc>
-<msg timestamp="20230925 01:26:45.342" level="INFO">${item_element} = //button[@id="add-to-cart-sauce-labs-backpack"]</msg>
-<status status="PASS" starttime="20230925 01:26:45.342" endtime="20230925 01:26:45.342"/>
+<msg timestamp="20230925 10:35:25.207" level="INFO">${item_element} = //button[@id="add-to-cart-sauce-labs-backpack"]</msg>
+<status status="PASS" starttime="20230925 10:35:25.207" endtime="20230925 10:35:25.207"/>
 </kw>
 <kw name="Click" library="Browser">
 <arg>${item_element}</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" starttime="20230925 01:26:45.342" endtime="20230925 01:26:45.381"/>
+<status status="PASS" starttime="20230925 10:35:25.207" endtime="20230925 10:35:25.235"/>
 </kw>
-<status status="PASS" starttime="20230925 01:26:45.302" endtime="20230925 01:26:45.381"/>
+<status status="PASS" starttime="20230925 10:35:25.168" endtime="20230925 10:35:25.235"/>
 </branch>
-<status status="PASS" starttime="20230925 01:26:45.301" endtime="20230925 01:26:45.381"/>
+<status status="PASS" starttime="20230925 10:35:25.168" endtime="20230925 10:35:25.235"/>
 </if>
-<status status="PASS" starttime="20230925 01:26:45.267" endtime="20230925 01:26:45.381"/>
+<status status="PASS" starttime="20230925 10:35:25.141" endtime="20230925 10:35:25.235"/>
 </kw>
 <kw name="Click Shopping Cart">
 <kw name="Click" library="Browser">
@@ -387,17 +387,17 @@
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" starttime="20230925 01:26:45.382" endtime="20230925 01:26:45.407"/>
+<status status="PASS" starttime="20230925 10:35:25.236" endtime="20230925 10:35:25.265"/>
 </kw>
-<status status="PASS" starttime="20230925 01:26:45.382" endtime="20230925 01:26:45.407"/>
+<status status="PASS" starttime="20230925 10:35:25.236" endtime="20230925 10:35:25.265"/>
 </kw>
 <kw name="Check Shopping Cart">
 <kw name="Set Variable" library="BuiltIn">
 <var>${item_element}</var>
 <arg>//div[@class="inventory_item_name"]</arg>
 <doc>Returns the given values which can then be assigned to a variables.</doc>
-<msg timestamp="20230925 01:26:45.408" level="INFO">${item_element} = //div[@class="inventory_item_name"]</msg>
-<status status="PASS" starttime="20230925 01:26:45.408" endtime="20230925 01:26:45.408"/>
+<msg timestamp="20230925 10:35:25.267" level="INFO">${item_element} = //div[@class="inventory_item_name"]</msg>
+<status status="PASS" starttime="20230925 10:35:25.266" endtime="20230925 10:35:25.267"/>
 </kw>
 <kw name="Get Text" library="Browser">
 <var>${text_1}</var>
@@ -406,17 +406,17 @@
 <tag>Getter</tag>
 <tag>PageContent</tag>
 <doc>Returns text attribute of the element found by ``selector``.</doc>
-<msg timestamp="20230925 01:26:45.420" level="INFO">Text: 'Sauce Labs Backpack'</msg>
-<msg timestamp="20230925 01:26:45.420" level="INFO">${text_1} = Sauce Labs Backpack</msg>
-<status status="PASS" starttime="20230925 01:26:45.409" endtime="20230925 01:26:45.420"/>
+<msg timestamp="20230925 10:35:25.278" level="INFO">Text: 'Sauce Labs Backpack'</msg>
+<msg timestamp="20230925 10:35:25.278" level="INFO">${text_1} = Sauce Labs Backpack</msg>
+<status status="PASS" starttime="20230925 10:35:25.267" endtime="20230925 10:35:25.278"/>
 </kw>
 <if>
 <branch type="IF" condition="$text_1 == $expected_item_element_value">
 <kw name="Log" library="BuiltIn">
 <arg>${text_1}</arg>
 <doc>Logs the given message with the given level.</doc>
-<msg timestamp="20230925 01:26:45.421" level="INFO">Sauce Labs Backpack</msg>
-<status status="PASS" starttime="20230925 01:26:45.420" endtime="20230925 01:26:45.421"/>
+<msg timestamp="20230925 10:35:25.279" level="INFO">Sauce Labs Backpack</msg>
+<status status="PASS" starttime="20230925 10:35:25.279" endtime="20230925 10:35:25.280"/>
 </kw>
 <kw name="Get Text" library="Browser">
 <var>${price_text}</var>
@@ -425,15 +425,15 @@
 <tag>Getter</tag>
 <tag>PageContent</tag>
 <doc>Returns text attribute of the element found by ``selector``.</doc>
-<msg timestamp="20230925 01:26:45.432" level="INFO">Text: '$29.99'</msg>
-<msg timestamp="20230925 01:26:45.432" level="INFO">${price_text} = $29.99</msg>
-<status status="PASS" starttime="20230925 01:26:45.421" endtime="20230925 01:26:45.432"/>
+<msg timestamp="20230925 10:35:25.291" level="INFO">Text: '$29.99'</msg>
+<msg timestamp="20230925 10:35:25.292" level="INFO">${price_text} = $29.99</msg>
+<status status="PASS" starttime="20230925 10:35:25.280" endtime="20230925 10:35:25.292"/>
 </kw>
 <kw name="Price To Int" library="lib">
 <var>${price_text_int}</var>
 <arg>${price_text}</arg>
-<msg timestamp="20230925 01:26:45.433" level="INFO">${price_text_int} = 29.99</msg>
-<status status="PASS" starttime="20230925 01:26:45.433" endtime="20230925 01:26:45.433"/>
+<msg timestamp="20230925 10:35:25.293" level="INFO">${price_text_int} = 29.99</msg>
+<status status="PASS" starttime="20230925 10:35:25.292" endtime="20230925 10:35:25.293"/>
 </kw>
 <if>
 <branch type="IF" condition="$price_text == $expected_item_element_price">
@@ -442,22 +442,22 @@
 <kw name="Log" library="BuiltIn">
 <arg>${price_text_int}</arg>
 <doc>Logs the given message with the given level.</doc>
-<msg timestamp="20230925 01:26:45.434" level="INFO">29.99</msg>
-<status status="PASS" starttime="20230925 01:26:45.434" endtime="20230925 01:26:45.435"/>
+<msg timestamp="20230925 10:35:25.294" level="INFO">29.99</msg>
+<status status="PASS" starttime="20230925 10:35:25.293" endtime="20230925 10:35:25.294"/>
 </kw>
-<status status="PASS" starttime="20230925 01:26:45.434" endtime="20230925 01:26:45.435"/>
+<status status="PASS" starttime="20230925 10:35:25.293" endtime="20230925 10:35:25.294"/>
 </branch>
-<status status="PASS" starttime="20230925 01:26:45.434" endtime="20230925 01:26:45.435"/>
+<status status="PASS" starttime="20230925 10:35:25.293" endtime="20230925 10:35:25.294"/>
 </if>
-<status status="PASS" starttime="20230925 01:26:45.433" endtime="20230925 01:26:45.435"/>
+<status status="PASS" starttime="20230925 10:35:25.293" endtime="20230925 10:35:25.294"/>
 </branch>
-<status status="PASS" starttime="20230925 01:26:45.433" endtime="20230925 01:26:45.435"/>
+<status status="PASS" starttime="20230925 10:35:25.293" endtime="20230925 10:35:25.294"/>
 </if>
-<status status="PASS" starttime="20230925 01:26:45.420" endtime="20230925 01:26:45.435"/>
+<status status="PASS" starttime="20230925 10:35:25.279" endtime="20230925 10:35:25.294"/>
 </branch>
-<status status="PASS" starttime="20230925 01:26:45.420" endtime="20230925 01:26:45.435"/>
+<status status="PASS" starttime="20230925 10:35:25.279" endtime="20230925 10:35:25.294"/>
 </if>
-<status status="PASS" starttime="20230925 01:26:45.408" endtime="20230925 01:26:45.435"/>
+<status status="PASS" starttime="20230925 10:35:25.266" endtime="20230925 10:35:25.294"/>
 </kw>
 <kw name="Click Checkout">
 <kw name="Click" library="Browser">
@@ -465,9 +465,9 @@
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" starttime="20230925 01:26:45.436" endtime="20230925 01:26:45.470"/>
+<status status="PASS" starttime="20230925 10:35:25.295" endtime="20230925 10:35:25.324"/>
 </kw>
-<status status="PASS" starttime="20230925 01:26:45.435" endtime="20230925 01:26:45.470"/>
+<status status="PASS" starttime="20230925 10:35:25.295" endtime="20230925 10:35:25.324"/>
 </kw>
 <kw name="Input User_Data And Continiue">
 <kw name="Fill Text" library="Browser">
@@ -476,8 +476,8 @@
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
-<msg timestamp="20230925 01:26:45.472" level="INFO">Fills the text 'test_user_name' in the given field.</msg>
-<status status="PASS" starttime="20230925 01:26:45.471" endtime="20230925 01:26:45.490"/>
+<msg timestamp="20230925 10:35:25.326" level="INFO">Fills the text 'test_user_name' in the given field.</msg>
+<status status="PASS" starttime="20230925 10:35:25.325" endtime="20230925 10:35:25.344"/>
 </kw>
 <kw name="Fill Text" library="Browser">
 <arg>${last_name_input}</arg>
@@ -485,8 +485,8 @@
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
-<msg timestamp="20230925 01:26:45.491" level="INFO">Fills the text 'test_user_last' in the given field.</msg>
-<status status="PASS" starttime="20230925 01:26:45.491" endtime="20230925 01:26:45.506"/>
+<msg timestamp="20230925 10:35:25.345" level="INFO">Fills the text 'test_user_last' in the given field.</msg>
+<status status="PASS" starttime="20230925 10:35:25.344" endtime="20230925 10:35:25.361"/>
 </kw>
 <kw name="Fill Text" library="Browser">
 <arg>${postal_code_input}</arg>
@@ -494,24 +494,24 @@
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
-<msg timestamp="20230925 01:26:45.506" level="INFO">Fills the text '12-345' in the given field.</msg>
-<status status="PASS" starttime="20230925 01:26:45.506" endtime="20230925 01:26:45.520"/>
+<msg timestamp="20230925 10:35:25.362" level="INFO">Fills the text '12-345' in the given field.</msg>
+<status status="PASS" starttime="20230925 10:35:25.361" endtime="20230925 10:35:25.376"/>
 </kw>
 <kw name="Click" library="Browser">
 <arg>${continiue_buy}</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" starttime="20230925 01:26:45.520" endtime="20230925 01:26:45.548"/>
+<status status="PASS" starttime="20230925 10:35:25.376" endtime="20230925 10:35:25.414"/>
 </kw>
-<status status="PASS" starttime="20230925 01:26:45.471" endtime="20230925 01:26:45.548"/>
+<status status="PASS" starttime="20230925 10:35:25.325" endtime="20230925 10:35:25.414"/>
 </kw>
 <kw name="Check Tax And Finish Buying">
 <kw name="Price To Int" library="lib">
 <var>${product_price_int}</var>
 <arg>${expected_item_element_price}</arg>
-<msg timestamp="20230925 01:26:45.550" level="INFO">${product_price_int} = 29.99</msg>
-<status status="PASS" starttime="20230925 01:26:45.549" endtime="20230925 01:26:45.550"/>
+<msg timestamp="20230925 10:35:25.415" level="INFO">${product_price_int} = 29.99</msg>
+<status status="PASS" starttime="20230925 10:35:25.414" endtime="20230925 10:35:25.415"/>
 </kw>
 <kw name="Get Text" library="Browser">
 <var>${tax_text}</var>
@@ -520,15 +520,15 @@
 <tag>Getter</tag>
 <tag>PageContent</tag>
 <doc>Returns text attribute of the element found by ``selector``.</doc>
-<msg timestamp="20230925 01:26:45.561" level="INFO">Text: 'Tax: $2.40'</msg>
-<msg timestamp="20230925 01:26:45.561" level="INFO">${tax_text} = Tax: $2.40</msg>
-<status status="PASS" starttime="20230925 01:26:45.550" endtime="20230925 01:26:45.561"/>
+<msg timestamp="20230925 10:35:25.426" level="INFO">Text: 'Tax: $2.40'</msg>
+<msg timestamp="20230925 10:35:25.426" level="INFO">${tax_text} = Tax: $2.40</msg>
+<status status="PASS" starttime="20230925 10:35:25.415" endtime="20230925 10:35:25.426"/>
 </kw>
 <kw name="Price To Int" library="lib">
 <var>${tax_int}</var>
 <arg>${tax_text}</arg>
-<msg timestamp="20230925 01:26:45.562" level="INFO">${tax_int} = 2.4</msg>
-<status status="PASS" starttime="20230925 01:26:45.562" endtime="20230925 01:26:45.562"/>
+<msg timestamp="20230925 10:35:25.427" level="INFO">${tax_int} = 2.4</msg>
+<status status="PASS" starttime="20230925 10:35:25.426" endtime="20230925 10:35:25.427"/>
 </kw>
 <kw name="Get Text" library="Browser">
 <var>${expected_final_price_text}</var>
@@ -537,53 +537,53 @@
 <tag>Getter</tag>
 <tag>PageContent</tag>
 <doc>Returns text attribute of the element found by ``selector``.</doc>
-<msg timestamp="20230925 01:26:45.573" level="INFO">Text: 'Total: $32.39'</msg>
-<msg timestamp="20230925 01:26:45.573" level="INFO">${expected_final_price_text} = Total: $32.39</msg>
-<status status="PASS" starttime="20230925 01:26:45.562" endtime="20230925 01:26:45.573"/>
+<msg timestamp="20230925 10:35:25.437" level="INFO">Text: 'Total: $32.39'</msg>
+<msg timestamp="20230925 10:35:25.438" level="INFO">${expected_final_price_text} = Total: $32.39</msg>
+<status status="PASS" starttime="20230925 10:35:25.427" endtime="20230925 10:35:25.438"/>
 </kw>
 <kw name="Price To Int" library="lib">
 <var>${expected_final_price_int}</var>
 <arg>${expected_final_price_text}</arg>
-<msg timestamp="20230925 01:26:45.574" level="INFO">${expected_final_price_int} = 32.39</msg>
-<status status="PASS" starttime="20230925 01:26:45.573" endtime="20230925 01:26:45.574"/>
+<msg timestamp="20230925 10:35:25.438" level="INFO">${expected_final_price_int} = 32.39</msg>
+<status status="PASS" starttime="20230925 10:35:25.438" endtime="20230925 10:35:25.439"/>
 </kw>
 <if>
 <branch type="IF" condition="$product_price_int + $tax_int == $expected_final_price_int">
 <kw name="Log" library="BuiltIn">
 <arg>Final price correct</arg>
 <doc>Logs the given message with the given level.</doc>
-<msg timestamp="20230925 01:26:45.575" level="INFO">Final price correct</msg>
-<status status="PASS" starttime="20230925 01:26:45.574" endtime="20230925 01:26:45.575"/>
+<msg timestamp="20230925 10:35:25.440" level="INFO">Final price correct</msg>
+<status status="PASS" starttime="20230925 10:35:25.439" endtime="20230925 10:35:25.440"/>
 </kw>
-<status status="PASS" starttime="20230925 01:26:45.574" endtime="20230925 01:26:45.575"/>
+<status status="PASS" starttime="20230925 10:35:25.439" endtime="20230925 10:35:25.440"/>
 </branch>
-<status status="PASS" starttime="20230925 01:26:45.574" endtime="20230925 01:26:45.575"/>
+<status status="PASS" starttime="20230925 10:35:25.439" endtime="20230925 10:35:25.440"/>
 </if>
 <kw name="Click" library="Browser">
 <arg>${finish_button}</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" starttime="20230925 01:26:45.575" endtime="20230925 01:26:45.602"/>
+<status status="PASS" starttime="20230925 10:35:25.440" endtime="20230925 10:35:25.472"/>
 </kw>
 <kw name="Click" library="Browser">
 <arg>${back_home_button}</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" starttime="20230925 01:26:45.602" endtime="20230925 01:26:45.648"/>
+<status status="PASS" starttime="20230925 10:35:25.473" endtime="20230925 10:35:25.515"/>
 </kw>
-<status status="PASS" starttime="20230925 01:26:45.549" endtime="20230925 01:26:45.649"/>
+<status status="PASS" starttime="20230925 10:35:25.414" endtime="20230925 10:35:25.516"/>
 </kw>
 <doc>Test testujacy kupowanie produktu</doc>
 <tag>buy_sucedemo.com</tag>
 <timeout value="3 seconds"/>
-<status status="PASS" starttime="20230925 01:26:44.342" endtime="20230925 01:26:45.649"/>
+<status status="PASS" starttime="20230925 10:35:24.128" endtime="20230925 10:35:25.516"/>
 </test>
 <doc>Test strony sucedemo.com</doc>
-<status status="PASS" starttime="20230925 01:26:39.763" endtime="20230925 01:26:45.718"/>
+<status status="PASS" starttime="20230925 10:35:19.505" endtime="20230925 10:35:25.577"/>
 </suite>
-<status status="PASS" starttime="20230925 01:26:39.743" endtime="20230925 01:26:45.724"/>
+<status status="PASS" starttime="20230925 10:35:19.484" endtime="20230925 10:35:25.588"/>
 </suite>
 <statistics>
 <total>
@@ -600,8 +600,8 @@
 </suite>
 </statistics>
 <errors>
-<msg timestamp="20230925 01:26:41.573" level="WARN">Open Browser is for quick experimentation and debugging only. Use New Page for production.</msg>
-<msg timestamp="20230925 01:26:43.135" level="WARN">Open Browser is for quick experimentation and debugging only. Use New Page for production.</msg>
-<msg timestamp="20230925 01:26:44.347" level="WARN">Open Browser is for quick experimentation and debugging only. Use New Page for production.</msg>
+<msg timestamp="20230925 10:35:21.317" level="WARN">Open Browser is for quick experimentation and debugging only. Use New Page for production.</msg>
+<msg timestamp="20230925 10:35:22.787" level="WARN">Open Browser is for quick experimentation and debugging only. Use New Page for production.</msg>
+<msg timestamp="20230925 10:35:24.139" level="WARN">Open Browser is for quick experimentation and debugging only. Use New Page for production.</msg>
 </errors>
 </robot>
